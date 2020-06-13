@@ -1,7 +1,5 @@
 # a2_q2.py
 
-# from a2_q1 import *
-
 def check_teams(graph, csp_sol):
     total_var = len(csp_sol)
 
@@ -13,9 +11,3 @@ def check_teams(graph, csp_sol):
 
     return True
 
-# g = {0:[1,2], 1:[0], 2: [0], 3:[]}
-
-# x = {0:1, 1:0, 2:0, 3:1}
-
-# y = check_teams(g,x)
-# print(y)

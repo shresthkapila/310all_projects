@@ -187,45 +187,44 @@ def maxPeople(solution):
 
 # running.. question 3 
 
-for i in range(6):
-    print("Set of graphs:  ", i+1)
-
-    graphs = [rand_graph(0.1,31), rand_graph(0.2,31), rand_graph(0.3,31), 
-                rand_graph(0.4,31), rand_graph(0.5,31), rand_graph(0.6,31)]
-    
-    var = 0.1
-    for k in range(6):
-        print("Graph: ", k+1)
-
-        start_time = time.time()
-        for j in range(31):
-            newdomain={w:[] for w in range(j+1)}
-            for x in range(len(newdomain)):
-                for y in range(len(newdomain)):    
-                    newdomain[y].append(x)
-            problem = MapColoringCSP(newdomain,graphs[k])
-            solution = backtracking_search(problem, inference=forward_checking)
-            if solution is None:
-                continue
-            else:
-                break
-
-        elapsed_time = time.time() - start_time
+def run_q3():
         
-        print(f'IceBreaker problem for n=31; p= {var}')
-        print(f'==> no of teams: {countTeams(solution)}')
-        print(f'==> total time (in seconds): {elapsed_time}')
-        print(f'==> no of assigned variable: {problem.nassigns}' )
-        print(f'==> no of unassigned variable: {problem.unassigns}')
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ')
-        print('\n')
-        var = var + 0.1
+    for i in range(6):
+        print("Set of graphs:  ", i+1)
 
-    
+        graphs = [rand_graph(0.1,31), rand_graph(0.2,31), rand_graph(0.3,31), 
+                    rand_graph(0.4,31), rand_graph(0.5,31), rand_graph(0.6,31)]
+        
+        var = 0.1
+        for k in range(6):
+            print("Graph: ", k+1)
+
+            start_time = time.time()
+            for j in range(31):
+                newdomain={w:[] for w in range(j+1)}
+                for x in range(len(newdomain)):
+                    for y in range(len(newdomain)):    
+                        newdomain[y].append(x)
+                problem = MapColoringCSP(newdomain,graphs[k])
+                solution = backtracking_search(problem, inference=forward_checking)
+                if solution is None:
+                    continue
+                else:
+                    break
+
+            elapsed_time = time.time() - start_time
+            
+            print(f'IceBreaker problem for n=31; p= {var}')
+            print(f'==> no of teams: {countTeams(solution)}')
+            print(f'==> total time (in seconds): {elapsed_time}')
+            print(f'==> no of assigned variable: {problem.nassigns}' )
+            print(f'==> no of unassigned variable: {problem.unassigns}')
+            print(f'==> no of friends in largest team: {maxPeople(solution)} ')
+            print('\n')
+            var = var + 0.1
 
 
-
-
+run_q3()
 
 
 
