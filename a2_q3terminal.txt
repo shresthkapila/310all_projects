@@ -1,0 +1,805 @@
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.0034151077270507812
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 14 
+==> solution (teams be like): {27: 0, 2: 1, 21: 1, 29: 0, 11: 2, 14: 0, 6: 1, 28: 0, 12: 2, 16: 1, 20: 1, 24: 2, 1: 1, 3: 2, 7: 1, 9: 0, 17: 2, 25: 1, 0: 0, 30: 0, 15: 0, 10: 1, 26: 0, 23: 2, 22: 0, 5: 0, 8: 0, 13: 1, 18: 0, 19: 1, 4: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.10100603103637695
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 9 
+==> solution (teams be like): {14: 0, 23: 1, 30: 2, 26: 2, 7: 1, 21: 1, 0: 0, 22: 2, 24: 1, 25: 0, 5: 3, 19: 2, 3: 4, 18: 1, 16: 3, 6: 4, 28: 2, 8: 2, 2: 2, 10: 4, 9: 3, 12: 1, 1: 3, 13: 2, 11: 0, 29: 0, 27: 2, 4: 0, 15: 3, 17: 1, 20: 0}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.8280420303344727
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {14: 0, 12: 1, 8: 2, 6: 3, 24: 1, 11: 3, 29: 0, 17: 0, 13: 2, 26: 0, 4: 3, 30: 4, 27: 2, 2: 5, 7: 2, 15: 4, 3: 1, 21: 5, 16: 0, 0: 3, 23: 1, 1: 2, 22: 1, 28: 3, 19: 0, 18: 2, 20: 1, 25: 0, 9: 3, 10: 3, 5: 0}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.4351837635040283
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 7 
+==> solution (teams be like): {11: 0, 24: 1, 25: 2, 19: 2, 13: 1, 18: 0, 7: 3, 21: 1, 15: 1, 6: 4, 26: 2, 14: 5, 8: 4, 10: 0, 4: 3, 5: 3, 0: 5, 1: 0, 27: 2, 23: 2, 2: 0, 20: 5, 29: 1, 16: 1, 22: 3, 28: 0, 17: 3, 3: 2, 9: 4, 30: 0, 12: 2}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 6.180475950241089
+==> no of assigned variable: 70
+==> no of unassigned variable: 32
+==> no of friends in largest team: 6 
+==> solution (teams be like): {4: 0, 27: 1, 14: 2, 21: 3, 15: 4, 28: 5, 13: 6, 17: 0, 23: 1, 18: 1, 1: 0, 25: 3, 26: 6, 20: 2, 7: 5, 11: 3, 8: 6, 19: 2, 2: 4, 3: 0, 22: 3, 16: 6, 5: 2, 10: 5, 30: 2, 24: 4, 12: 5, 9: 2, 29: 0, 0: 4, 6: 6}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 9
+==> total time (in seconds): 1279.2514419555664
+==> no of assigned variable: 17452
+==> no of unassigned variable: 13757
+==> no of friends in largest team: 4 
+==> solution (teams be like): {0: 0, 17: 1, 13: 2, 8: 3, 7: 4, 19: 1, 15: 5, 23: 1, 6: 6, 4: 0, 1: 2, 10: 3, 29: 7, 11: 6, 9: 4, 12: 8, 25: 0, 16: 5, 5: 3, 28: 2, 26: 7, 22: 0, 27: 5, 20: 8, 21: 6, 3: 2, 18: 4, 24: 5, 30: 8, 14: 7, 2: 3}
+
+////////////////////////////
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.0037720203399658203
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 15 
+==> solution (teams be like): {4: 0, 22: 1, 14: 1, 12: 1, 19: 0, 23: 2, 2: 0, 25: 1, 10: 1, 18: 2, 27: 0, 0: 1, 16: 0, 21: 0, 24: 2, 1: 0, 7: 0, 20: 1, 9: 0, 11: 1, 5: 0, 17: 1, 15: 2, 8: 1, 13: 0, 3: 1, 30: 1, 6: 0, 26: 0, 29: 0, 28: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.00976705551147461
+==> no of assigned variable: 67
+==> no of unassigned variable: 30
+==> no of friends in largest team: 9 
+==> solution (teams be like): {24: 0, 22: 1, 16: 2, 4: 0, 20: 3, 2: 1, 10: 1, 26: 2, 19: 1, 27: 2, 21: 0, 15: 3, 25: 3, 13: 1, 29: 0, 9: 2, 6: 3, 0: 3, 11: 0, 3: 3, 18: 0, 30: 2, 28: 0, 5: 0, 1: 2, 12: 1, 14: 1, 8: 3, 23: 2, 7: 2, 17: 0}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.02111220359802246
+==> no of assigned variable: 85
+==> no of unassigned variable: 45
+==> no of friends in largest team: 7 
+==> solution (teams be like): {12: 0, 11: 1, 17: 2, 1: 3, 15: 3, 30: 0, 8: 4, 21: 2, 29: 0, 27: 3, 22: 3, 23: 1, 19: 0, 2: 0, 16: 3, 24: 3, 28: 2, 18: 1, 4: 4, 5: 4, 0: 2, 25: 4, 3: 3, 26: 2, 7: 4, 14: 2, 6: 4, 13: 1, 9: 0, 10: 1, 20: 2}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.10870599746704102
+==> no of assigned variable: 504
+==> no of unassigned variable: 417
+==> no of friends in largest team: 6 
+==> solution (teams be like): {21: 0, 5: 1, 8: 2, 1: 3, 18: 1, 12: 2, 11: 4, 27: 1, 17: 0, 7: 2, 2: 5, 24: 3, 9: 1, 19: 4, 13: 5, 16: 3, 6: 1, 29: 0, 25: 0, 10: 5, 26: 2, 0: 4, 3: 5, 14: 1, 15: 4, 20: 2, 22: 3, 23: 2, 30: 0, 4: 4, 28: 5}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 1.418860912322998
+==> no of assigned variable: 101
+==> no of unassigned variable: 56
+==> no of friends in largest team: 6 
+==> solution (teams be like): {8: 0, 20: 1, 2: 2, 22: 3, 5: 0, 7: 4, 14: 5, 24: 6, 4: 2, 23: 5, 12: 5, 16: 0, 28: 3, 26: 3, 15: 1, 0: 4, 17: 0, 18: 6, 30: 2, 19: 1, 6: 4, 3: 5, 29: 6, 10: 0, 25: 2, 11: 6, 21: 4, 13: 3, 9: 5, 27: 0, 1: 1}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 14.718843221664429
+==> no of assigned variable: 34
+==> no of unassigned variable: 2
+==> no of friends in largest team: 5 
+==> solution (teams be like): {20: 0, 14: 1, 2: 2, 24: 3, 28: 4, 0: 0, 19: 2, 16: 5, 21: 4, 17: 6, 27: 2, 5: 3, 18: 6, 15: 5, 1: 0, 26: 7, 22: 3, 30: 4, 9: 1, 11: 6, 4: 2, 10: 7, 25: 1, 3: 3, 23: 7, 29: 5, 12: 1, 7: 0, 8: 7, 13: 5, 6: 0}
+
+//////////////////////////////
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.0027599334716796875
+==> no of assigned variable: 34
+==> no of unassigned variable: 2
+==> no of friends in largest team: 11 
+==> solution (teams be like): {19: 0, 10: 1, 23: 2, 21: 1, 2: 0, 0: 0, 29: 1, 18: 2, 8: 0, 17: 0, 12: 0, 15: 2, 9: 2, 13: 1, 5: 2, 27: 0, 11: 2, 14: 0, 24: 1, 26: 2, 28: 1, 20: 2, 4: 0, 1: 0, 22: 2, 6: 1, 7: 1, 16: 1, 3: 2, 25: 1, 30: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.0083770751953125
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 11 
+==> solution (teams be like): {15: 0, 19: 1, 24: 1, 28: 1, 9: 0, 6: 2, 21: 2, 27: 2, 7: 0, 13: 0, 11: 3, 18: 1, 23: 2, 25: 0, 12: 3, 5: 2, 2: 3, 0: 0, 3: 0, 16: 1, 29: 1, 8: 3, 4: 1, 17: 0, 30: 0, 20: 2, 22: 1, 14: 1, 10: 0, 26: 0, 1: 1}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.0311431884765625
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {2: 0, 11: 1, 16: 2, 20: 0, 18: 0, 30: 3, 14: 2, 13: 1, 12: 4, 17: 3, 10: 3, 8: 1, 3: 3, 26: 2, 27: 4, 15: 0, 4: 4, 19: 2, 6: 0, 0: 1, 23: 4, 7: 0, 28: 0, 29: 2, 24: 1, 1: 3, 21: 3, 9: 1, 22: 2, 5: 0, 25: 2}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.18078303337097168
+==> no of assigned variable: 51
+==> no of unassigned variable: 16
+==> no of friends in largest team: 6 
+==> solution (teams be like): {14: 0, 10: 1, 19: 2, 23: 2, 13: 0, 17: 3, 21: 1, 7: 3, 18: 4, 25: 0, 15: 0, 8: 4, 26: 5, 22: 0, 12: 3, 28: 2, 4: 4, 9: 1, 0: 3, 16: 5, 20: 2, 6: 1, 27: 1, 24: 0, 2: 5, 3: 4, 30: 4, 1: 5, 29: 3, 5: 1, 11: 4}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 4.453544855117798
+==> no of assigned variable: 111
+==> no of unassigned variable: 63
+==> no of friends in largest team: 5 
+==> solution (teams be like): {14: 0, 13: 1, 16: 2, 5: 3, 1: 4, 28: 5, 2: 6, 22: 3, 27: 1, 12: 5, 7: 2, 19: 5, 0: 4, 25: 1, 8: 0, 10: 2, 18: 6, 20: 3, 15: 0, 9: 6, 24: 4, 29: 5, 4: 4, 30: 2, 23: 4, 11: 0, 6: 6, 26: 0, 3: 1, 21: 3, 17: 6}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 9
+==> total time (in seconds): 1562.7969841957092
+==> no of assigned variable: 368
+==> no of unassigned variable: 262
+==> no of friends in largest team: 4 
+==> solution (teams be like): {18: 0, 24: 1, 1: 2, 16: 3, 2: 2, 25: 1, 22: 4, 17: 5, 0: 0, 30: 4, 28: 6, 8: 7, 19: 2, 4: 0, 15: 5, 12: 8, 14: 7, 21: 3, 9: 6, 11: 3, 5: 8, 6: 0, 29: 8, 27: 1, 7: 6, 10: 5, 26: 6, 3: 2, 23: 3, 13: 7, 20: 8}
+
+/////////////////////////////////
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.003869295120239258
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 13 
+==> solution (teams be like): {4: 0, 21: 1, 7: 2, 11: 1, 25: 0, 3: 1, 26: 0, 14: 0, 24: 1, 17: 1, 29: 0, 27: 1, 9: 1, 5: 2, 8: 0, 18: 0, 15: 2, 16: 0, 2: 2, 0: 1, 28: 0, 30: 0, 19: 0, 13: 1, 12: 2, 10: 0, 1: 1, 23: 1, 6: 1, 22: 1, 20: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.010983943939208984
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 11 
+==> solution (teams be like): {23: 0, 28: 1, 3: 2, 4: 0, 22: 0, 18: 1, 16: 2, 11: 0, 6: 1, 8: 0, 15: 2, 29: 0, 20: 1, 12: 2, 2: 3, 19: 0, 27: 1, 1: 2, 17: 0, 10: 2, 21: 1, 7: 3, 0: 2, 14: 1, 26: 0, 5: 0, 25: 3, 24: 1, 13: 0, 30: 2, 9: 1}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.6496610641479492
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 7 
+==> solution (teams be like): {3: 0, 14: 1, 28: 2, 16: 1, 25: 1, 24: 2, 11: 3, 8: 0, 15: 2, 2: 3, 4: 3, 7: 4, 0: 0, 1: 4, 10: 0, 20: 0, 27: 1, 17: 0, 23: 1, 21: 2, 18: 5, 5: 1, 12: 0, 19: 2, 6: 5, 22: 3, 30: 2, 26: 3, 13: 4, 29: 3, 9: 3}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.319425106048584
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 6 
+==> solution (teams be like): {19: 0, 6: 1, 20: 2, 26: 3, 0: 1, 12: 2, 14: 4, 24: 0, 10: 1, 13: 2, 17: 3, 8: 4, 2: 5, 27: 4, 30: 0, 5: 5, 28: 3, 7: 1, 18: 4, 1: 5, 21: 1, 29: 3, 11: 0, 23: 2, 3: 0, 9: 0, 15: 4, 16: 3, 22: 2, 25: 3, 4: 1}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 4.107623100280762
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 6 
+==> solution (teams be like): {15: 0, 13: 1, 3: 2, 28: 3, 16: 1, 25: 4, 11: 0, 8: 5, 27: 0, 0: 3, 7: 2, 30: 6, 21: 6, 29: 1, 18: 0, 19: 2, 14: 0, 23: 5, 2: 4, 5: 1, 10: 2, 26: 5, 1: 6, 12: 3, 20: 0, 24: 2, 17: 4, 9: 4, 4: 3, 6: 1, 22: 1}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 9
+==> total time (in seconds): 1760.1538219451904
+==> no of assigned variable: 459
+==> no of unassigned variable: 360
+==> no of friends in largest team: 5 
+==> solution (teams be like): {11: 0, 3: 1, 5: 2, 0: 3, 24: 4, 19: 2, 6: 5, 12: 6, 9: 2, 21: 2, 8: 3, 14: 5, 2: 7, 18: 3, 28: 8, 29: 4, 26: 0, 23: 1, 30: 6, 17: 7, 25: 7, 15: 4, 1: 0, 10: 8, 7: 3, 16: 1, 4: 7, 27: 0, 13: 8, 22: 7, 20: 5}
+
+////////////////////////////////
+
+
+
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.0030870437622070312
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 12 
+==> solution (teams be like): {18: 0, 26: 1, 27: 0, 25: 1, 24: 2, 7: 0, 22: 2, 28: 1, 6: 2, 15: 0, 23: 2, 20: 1, 21: 0, 10: 2, 29: 1, 12: 0, 13: 2, 8: 2, 16: 0, 5: 0, 4: 0, 17: 1, 30: 0, 2: 0, 14: 1, 11: 1, 9: 2, 1: 1, 3: 1, 0: 0, 19: 1}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.011193990707397461
+==> no of assigned variable: 169
+==> no of unassigned variable: 122
+==> no of friends in largest team: 9 
+==> solution (teams be like): {25: 0, 4: 1, 12: 2, 0: 0, 14: 3, 21: 2, 1: 1, 6: 1, 10: 3, 20: 0, 16: 3, 17: 0, 8: 1, 13: 2, 3: 0, 11: 1, 18: 2, 19: 3, 28: 3, 29: 0, 24: 1, 30: 3, 15: 2, 9: 1, 26: 2, 27: 3, 2: 2, 23: 0, 22: 2, 7: 0, 5: 2}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.045590877532958984
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {16: 0, 11: 1, 12: 2, 18: 2, 17: 1, 7: 3, 0: 0, 10: 4, 25: 1, 6: 3, 14: 0, 30: 2, 15: 0, 21: 4, 8: 1, 22: 0, 26: 2, 29: 4, 20: 0, 4: 3, 28: 4, 2: 3, 27: 1, 13: 4, 19: 4, 9: 2, 3: 1, 1: 0, 23: 0, 24: 3, 5: 2}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.14570188522338867
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 7 
+==> solution (teams be like): {17: 0, 27: 1, 18: 2, 2: 3, 29: 0, 8: 2, 3: 0, 25: 1, 23: 4, 14: 1, 0: 2, 9: 1, 30: 3, 6: 4, 12: 5, 15: 0, 4: 0, 10: 4, 22: 0, 7: 5, 21: 3, 11: 1, 26: 3, 24: 1, 28: 5, 16: 3, 1: 4, 20: 0, 19: 2, 13: 4, 5: 5}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 0.9004931449890137
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 6 
+==> solution (teams be like): {25: 0, 26: 1, 17: 2, 14: 3, 21: 4, 15: 1, 5: 5, 2: 1, 9: 0, 18: 6, 22: 1, 8: 2, 28: 2, 7: 3, 24: 6, 3: 5, 6: 5, 10: 4, 30: 3, 1: 2, 23: 4, 4: 0, 19: 4, 20: 1, 29: 0, 0: 3, 27: 3, 11: 1, 16: 5, 12: 5, 13: 0}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 6.789696931838989
+==> no of assigned variable: 527
+==> no of unassigned variable: 402
+==> no of friends in largest team: 5 
+==> solution (teams be like): {21: 0, 10: 1, 24: 2, 25: 3, 18: 4, 5: 5, 22: 4, 19: 2, 11: 6, 20: 7, 26: 5, 28: 5, 16: 5, 23: 3, 12: 0, 9: 1, 1: 4, 27: 7, 0: 2, 15: 0, 2: 7, 8: 6, 3: 6, 30: 6, 7: 3, 4: 1, 6: 4, 14: 0, 29: 1, 17: 7, 13: 0}
+
+/////////////////////////////////////////
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.002473115921020508
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 16 
+==> solution (teams be like): {14: 0, 4: 1, 21: 2, 23: 0, 20: 1, 19: 1, 22: 1, 17: 0, 18: 0, 11: 2, 25: 1, 2: 0, 5: 2, 28: 0, 8: 0, 1: 1, 26: 2, 9: 0, 10: 1, 27: 2, 29: 1, 3: 0, 16: 2, 13: 0, 7: 0, 0: 0, 15: 0, 12: 0, 30: 0, 6: 1, 24: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.005480766296386719
+==> no of assigned variable: 52
+==> no of unassigned variable: 16
+==> no of friends in largest team: 11 
+==> solution (teams be like): {5: 0, 17: 1, 12: 2, 30: 0, 23: 2, 4: 2, 11: 1, 2: 0, 7: 2, 10: 2, 0: 3, 22: 0, 9: 1, 14: 3, 6: 0, 24: 1, 21: 3, 8: 2, 3: 1, 18: 0, 13: 2, 19: 3, 26: 1, 25: 0, 20: 1, 28: 0, 15: 3, 27: 0, 29: 0, 16: 2, 1: 0}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.03835797309875488
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {9: 0, 10: 1, 4: 2, 1: 0, 28: 3, 27: 1, 6: 0, 19: 3, 13: 2, 12: 4, 7: 1, 0: 3, 29: 0, 23: 2, 11: 4, 25: 3, 21: 2, 20: 0, 14: 1, 5: 4, 16: 0, 17: 1, 18: 4, 3: 2, 26: 3, 22: 1, 8: 3, 30: 1, 15: 0, 2: 1, 24: 0}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.2607429027557373
+==> no of assigned variable: 185
+==> no of unassigned variable: 126
+==> no of friends in largest team: 7 
+==> solution (teams be like): {19: 0, 12: 1, 2: 2, 26: 3, 10: 0, 23: 4, 0: 3, 7: 5, 1: 0, 17: 2, 21: 4, 8: 3, 20: 4, 22: 2, 9: 5, 24: 0, 13: 4, 4: 5, 30: 3, 14: 5, 29: 1, 25: 4, 15: 1, 6: 2, 28: 0, 3: 5, 11: 0, 5: 5, 27: 0, 16: 1, 18: 4}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 0.8577661514282227
+==> no of assigned variable: 166
+==> no of unassigned variable: 109
+==> no of friends in largest team: 6 
+==> solution (teams be like): {16: 0, 3: 1, 25: 2, 8: 3, 15: 4, 10: 0, 11: 2, 1: 5, 5: 6, 21: 4, 6: 1, 24: 0, 28: 3, 4: 5, 27: 3, 12: 1, 9: 3, 19: 5, 0: 2, 2: 6, 29: 4, 26: 5, 13: 2, 7: 0, 22: 1, 23: 6, 18: 0, 14: 6, 17: 5, 20: 0, 30: 5}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 17.722899198532104
+==> no of assigned variable: 6314
+==> no of unassigned variable: 5213
+==> no of friends in largest team: 5 
+==> solution (teams be like): {12: 0, 24: 1, 22: 2, 11: 3, 19: 4, 4: 7, 30: 6, 7: 3, 6: 2, 18: 0, 3: 5, 15: 2, 13: 4, 9: 3, 14: 5, 26: 0, 21: 6, 17: 5, 8: 7, 29: 5, 2: 3, 0: 4, 27: 3, 16: 2, 23: 7, 20: 1, 5: 7, 1: 6, 10: 2, 28: 5, 25: 1}
+
+///////////////////////////////////////
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.002948760986328125
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 14 
+==> solution (teams be like): {13: 0, 19: 1, 5: 0, 11: 0, 30: 0, 10: 1, 9: 0, 26: 1, 23: 2, 2: 0, 27: 1, 8: 2, 14: 1, 21: 0, 15: 1, 6: 1, 20: 0, 3: 1, 18: 0, 12: 1, 22: 2, 25: 1, 16: 1, 1: 0, 7: 1, 17: 0, 29: 1, 28: 0, 4: 0, 0: 1, 24: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.19132280349731445
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {7: 0, 25: 1, 23: 2, 12: 1, 5: 0, 16: 0, 6: 3, 11: 1, 10: 2, 3: 1, 17: 1, 2: 3, 28: 1, 9: 0, 21: 3, 14: 0, 24: 3, 29: 2, 8: 4, 1: 2, 4: 4, 20: 0, 30: 1, 27: 4, 26: 2, 0: 2, 15: 1, 19: 3, 18: 3, 22: 4, 13: 0}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 1.3460369110107422
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {19: 0, 14: 1, 10: 2, 4: 2, 8: 0, 9: 2, 6: 3, 18: 2, 16: 1, 28: 4, 0: 3, 17: 0, 2: 1, 11: 4, 7: 5, 23: 3, 15: 4, 29: 5, 26: 1, 21: 0, 30: 1, 12: 0, 13: 4, 25: 1, 3: 5, 1: 2, 20: 0, 24: 3, 22: 4, 5: 0, 27: 0}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.273712158203125
+==> no of assigned variable: 36
+==> no of unassigned variable: 3
+==> no of friends in largest team: 6 
+==> solution (teams be like): {26: 0, 27: 1, 12: 2, 14: 3, 15: 1, 6: 0, 11: 4, 18: 1, 13: 4, 1: 2, 29: 3, 4: 0, 20: 5, 2: 3, 21: 3, 0: 2, 7: 0, 9: 0, 22: 0, 25: 2, 19: 5, 5: 4, 10: 1, 8: 3, 16: 3, 23: 5, 24: 4, 30: 4, 28: 2, 3: 1, 17: 1}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 1.2415640354156494
+==> no of assigned variable: 5168
+==> no of unassigned variable: 4377
+==> no of friends in largest team: 5 
+==> solution (teams be like): {14: 0, 15: 1, 24: 2, 3: 3, 30: 4, 17: 5, 8: 6, 13: 2, 22: 0, 23: 3, 19: 1, 12: 6, 28: 4, 18: 2, 7: 0, 20: 6, 27: 1, 0: 5, 1: 0, 26: 2, 16: 4, 29: 3, 6: 6, 9: 5, 10: 1, 25: 6, 11: 3, 21: 1, 4: 2, 5: 5, 2: 4}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 9
+==> total time (in seconds): 206.41841006278992
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 5 
+==> solution (teams be like): {26: 0, 9: 1, 29: 2, 5: 3, 6: 4, 21: 5, 19: 6, 8: 7, 0: 0, 1: 5, 14: 3, 27: 1, 3: 7, 18: 3, 25: 6, 7: 7, 11: 8, 30: 2, 4: 2, 17: 0, 2: 4, 24: 1, 10: 3, 16: 3, 20: 1, 13: 8, 15: 4, 23: 7, 28: 0, 12: 1, 22: 5}
+
+////////////////////////
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.004132986068725586
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 13 
+==> solution (teams be like): {6: 0, 2: 1, 8: 0, 22: 1, 25: 2, 4: 1, 5: 2, 1: 0, 9: 1, 29: 0, 20: 0, 12: 0, 17: 0, 24: 2, 16: 1, 0: 0, 15: 1, 14: 2, 13: 1, 11: 1, 26: 1, 23: 2, 27: 0, 7: 2, 30: 1, 3: 2, 21: 1, 19: 0, 10: 0, 28: 0, 18: 0}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.006685018539428711
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 9 
+==> solution (teams be like): {27: 0, 26: 1, 20: 2, 9: 0, 8: 1, 3: 0, 11: 2, 12: 3, 1: 1, 2: 3, 29: 0, 7: 1, 25: 2, 21: 2, 0: 2, 19: 1, 6: 3, 24: 3, 17: 3, 5: 0, 22: 2, 10: 2, 16: 3, 18: 1, 23: 1, 28: 0, 15: 3, 30: 0, 14: 1, 4: 2, 13: 1}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.04412412643432617
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 8 
+==> solution (teams be like): {23: 0, 14: 1, 15: 2, 11: 1, 6: 3, 24: 1, 5: 0, 7: 3, 18: 2, 12: 0, 9: 3, 10: 0, 19: 1, 3: 3, 17: 4, 2: 1, 13: 0, 25: 3, 26: 2, 0: 4, 30: 1, 28: 4, 20: 2, 21: 2, 22: 0, 8: 4, 16: 3, 4: 1, 29: 1, 27: 0, 1: 2}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 0.26303601264953613
+==> no of assigned variable: 273
+==> no of unassigned variable: 198
+==> no of friends in largest team: 6 
+==> solution (teams be like): {28: 0, 16: 1, 21: 2, 7: 3, 4: 0, 10: 1, 22: 1, 13: 4, 8: 5, 9: 1, 29: 2, 1: 3, 11: 4, 19: 5, 27: 1, 2: 4, 25: 5, 20: 2, 30: 2, 26: 2, 17: 5, 23: 3, 0: 0, 14: 4, 5: 2, 15: 0, 18: 4, 12: 5, 3: 0, 24: 3, 6: 3}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 0.9821197986602783
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 6 
+==> solution (teams be like): {29: 0, 24: 1, 12: 2, 21: 3, 22: 1, 5: 4, 1: 0, 16: 5, 6: 2, 8: 5, 23: 3, 9: 6, 2: 1, 4: 2, 17: 4, 18: 4, 26: 0, 13: 4, 10: 1, 25: 4, 0: 5, 30: 6, 7: 0, 3: 3, 14: 1, 28: 0, 27: 3, 11: 6, 19: 5, 20: 2, 15: 0}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 14.002478837966919
+==> no of assigned variable: 48
+==> no of unassigned variable: 15
+==> no of friends in largest team: 5 
+==> solution (teams be like): {2: 0, 24: 1, 21: 2, 19: 3, 5: 4, 12: 5, 14: 4, 0: 2, 27: 5, 17: 0, 6: 6, 1: 3, 9: 4, 25: 1, 13: 7, 20: 1, 11: 6, 16: 3, 26: 7, 28: 5, 3: 0, 23: 2, 10: 7, 29: 5, 22: 6, 18: 1, 7: 2, 4: 4, 30: 3, 15: 7, 8: 1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// before output before using mrv, lcr in backtracking
+
+
+
+
+
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.0010082721710205078
+==> no of assigned variable: 64
+==> no of unassigned variable: 21
+==> no of friends in largest team: 14 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 1, 11: 0, 12: 1, 13: 1, 14: 2, 15: 2, 16: 0, 17: 1, 18: 0, 19: 1, 20: 2, 21: 1, 22: 0, 23: 1, 24: 2, 25: 0, 26: 1, 27: 2, 28: 2, 29: 1, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.1159508228302002
+==> no of assigned variable: 4740
+==> no of unassigned variable: 2918
+==> no of friends in largest team: 9 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 1, 4: 0, 5: 1, 6: 0, 7: 1, 8: 3, 9: 2, 10: 3, 11: 3, 12: 3, 13: 3, 14: 2, 15: 2, 16: 2, 17: 1, 18: 3, 19: 0, 20: 2, 21: 3, 22: 0, 23: 1, 24: 1, 25: 3, 26: 0, 27: 0, 28: 0, 29: 2, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 4.306672096252441
+==> no of assigned variable: 64706
+==> no of unassigned variable: 45310
+==> no of friends in largest team: 9 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 0, 4: 1, 5: 1, 6: 0, 7: 1, 8: 2, 9: 1, 10: 2, 11: 2, 12: 4, 13: 0, 14: 0, 15: 4, 16: 0, 17: 0, 18: 2, 19: 2, 20: 2, 21: 3, 22: 2, 23: 3, 24: 3, 25: 3, 26: 0, 27: 4, 28: 4, 29: 1, 30: 3}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 7.8354668617248535
+==> no of assigned variable: 39
+==> no of unassigned variable: 5
+==> no of friends in largest team: 7 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 2, 4: 1, 5: 0, 6: 0, 7: 1, 8: 1, 9: 3, 10: 3, 11: 2, 12: 2, 13: 1, 14: 2, 15: 4, 16: 5, 17: 4, 18: 5, 19: 0, 20: 5, 21: 5, 22: 0, 23: 5, 24: 5, 25: 1, 26: 3, 27: 3, 28: 1, 29: 4, 30: 0}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 67.7315878868103
+==> no of assigned variable: 39899
+==> no of unassigned variable: 21278
+==> no of friends in largest team: 5 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 0, 4: 2, 5: 3, 6: 3, 7: 6, 8: 3, 9: 1, 10: 4, 11: 4, 12: 5, 13: 6, 14: 4, 15: 3, 16: 5, 17: 1, 18: 4, 19: 1, 20: 3, 21: 6, 22: 5, 23: 6, 24: 0, 25: 2, 26: 2, 27: 0, 28: 6, 29: 2, 30: 2}
+
+
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.05684518814086914
+==> no of assigned variable: 7547
+==> no of unassigned variable: 5882
+==> no of friends in largest team: 12 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0, 9: 2, 10: 2, 11: 0, 12: 1, 13: 2, 14: 2, 15: 2, 16: 2, 17: 0, 18: 1, 19: 0, 20: 0, 21: 1, 22: 2, 23: 2, 24: 2, 25: 2, 26: 1, 27: 0, 28: 2, 29: 1, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.01456594467163086
+==> no of assigned variable: 688
+==> no of unassigned variable: 393
+==> no of friends in largest team: 9 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 2, 4: 0, 5: 0, 6: 1, 7: 0, 8: 3, 9: 0, 10: 3, 11: 1, 12: 1, 13: 2, 14: 1, 15: 2, 16: 3, 17: 2, 18: 2, 19: 2, 20: 0, 21: 1, 22: 1, 23: 0, 24: 3, 25: 1, 26: 3, 27: 0, 28: 2, 29: 3, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 1.0469770431518555
+==> no of assigned variable: 62779
+==> no of unassigned variable: 39650
+==> no of friends in largest team: 7 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 0, 4: 2, 5: 4, 6: 1, 7: 1, 8: 4, 9: 2, 10: 4, 11: 0, 12: 4, 13: 2, 14: 3, 15: 2, 16: 3, 17: 0, 18: 2, 19: 3, 20: 3, 21: 1, 22: 3, 23: 3, 24: 4, 25: 0, 26: 4, 27: 4, 28: 1, 29: 3, 30: 2}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 7.807158708572388
+==> no of assigned variable: 8176
+==> no of unassigned variable: 4437
+==> no of friends in largest team: 6 
+==> solution (teams be like): {0: 0, 1: 1, 2: 2, 3: 1, 4: 0, 5: 3, 6: 1, 7: 0, 8: 1, 9: 4, 10: 0, 11: 0, 12: 5, 13: 5, 14: 4, 15: 0, 16: 5, 17: 5, 18: 3, 19: 3, 20: 5, 21: 3, 22: 3, 23: 4, 24: 3, 25: 1, 26: 5, 27: 4, 28: 2, 29: 2, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 163.35237503051758
+==> no of assigned variable: 6024269
+==> no of unassigned variable: 3186960
+==> no of friends in largest team: 6 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 2, 4: 6, 5: 5, 6: 6, 7: 3, 8: 4, 9: 5, 10: 3, 11: 5, 12: 1, 13: 0, 14: 3, 15: 3, 16: 2, 17: 0, 18: 5, 19: 4, 20: 1, 21: 6, 22: 2, 23: 4, 24: 6, 25: 3, 26: 4, 27: 6, 28: 4, 29: 1, 30: 3}
+
+
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 4.631836891174316
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 11 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 1, 9: 0, 10: 1, 11: 0, 12: 0, 13: 0, 14: 1, 15: 1, 16: 1, 17: 1, 18: 2, 19: 1, 20: 2, 21: 1, 22: 3, 23: 2, 24: 3, 25: 1, 26: 2, 27: 3, 28: 2, 29: 1, 30: 2}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.0428009033203125
+==> no of assigned variable: 45
+==> no of unassigned variable: 9
+==> no of friends in largest team: 11 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 1, 7: 0, 8: 1, 9: 0, 10: 1, 11: 2, 12: 1, 13: 2, 14: 0, 15: 3, 16: 3, 17: 2, 18: 3, 19: 3, 20: 3, 21: 1, 22: 1, 23: 1, 24: 1, 25: 2, 26: 0, 27: 0, 28: 1, 29: 3, 30: 0}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.43013811111450195
+==> no of assigned variable: 841
+==> no of unassigned variable: 546
+==> no of friends in largest team: 7 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 0, 4: 1, 5: 1, 6: 0, 7: 2, 8: 2, 9: 3, 10: 3, 11: 1, 12: 2, 13: 4, 14: 2, 15: 3, 16: 4, 17: 3, 18: 4, 19: 0, 20: 2, 21: 0, 22: 3, 23: 1, 24: 1, 25: 2, 26: 1, 27: 4, 28: 3, 29: 2, 30: 4}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 1.520900011062622
+==> no of assigned variable: 10168
+==> no of unassigned variable: 5785
+==> no of friends in largest team: 6 
+==> solution (teams be like): {0: 0, 1: 1, 2: 2, 3: 1, 4: 0, 5: 3, 6: 5, 7: 1, 8: 4, 9: 3, 10: 2, 11: 0, 12: 4, 13: 3, 14: 5, 15: 4, 16: 3, 17: 5, 18: 2, 19: 4, 20: 0, 21: 1, 22: 2, 23: 2, 24: 4, 25: 4, 26: 3, 27: 1, 28: 3, 29: 5, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 102.37403512001038
+==> no of assigned variable: 13919
+==> no of unassigned variable: 8420
+==> no of friends in largest team: 6 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 1, 4: 2, 5: 1, 6: 3, 7: 3, 8: 6, 9: 2, 10: 4, 11: 6, 12: 2, 13: 3, 14: 5, 15: 4, 16: 0, 17: 6, 18: 4, 19: 5, 20: 0, 21: 5, 22: 4, 23: 1, 24: 2, 25: 6, 26: 2, 27: 3, 28: 6, 29: 2, 30: 6}
+
+
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.001039266586303711
+==> no of assigned variable: 32
+==> no of unassigned variable: 0
+==> no of friends in largest team: 15 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 1, 7: 1, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 1, 15: 1, 16: 0, 17: 2, 18: 1, 19: 0, 20: 0, 21: 2, 22: 2, 23: 1, 24: 1, 25: 0, 26: 1, 27: 2, 28: 1, 29: 1, 30: 2}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 0.0344998836517334
+==> no of assigned variable: 33
+==> no of unassigned variable: 1
+==> no of friends in largest team: 10 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 1, 4: 1, 5: 1, 6: 1, 7: 2, 8: 0, 9: 1, 10: 2, 11: 1, 12: 0, 13: 2, 14: 1, 15: 3, 16: 3, 17: 1, 18: 0, 19: 2, 20: 0, 21: 2, 22: 3, 23: 0, 24: 3, 25: 1, 26: 1, 27: 2, 28: 0, 29: 2, 30: 2}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 27.43596601486206
+==> no of assigned variable: 2917710
+==> no of unassigned variable: 1955414
+==> no of friends in largest team: 7 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 4, 4: 0, 5: 3, 6: 0, 7: 0, 8: 3, 9: 1, 10: 2, 11: 2, 12: 2, 13: 1, 14: 4, 15: 4, 16: 3, 17: 1, 18: 4, 19: 4, 20: 3, 21: 4, 22: 1, 23: 4, 24: 2, 25: 0, 26: 3, 27: 0, 28: 3, 29: 3, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 1.5574121475219727
+==> no of assigned variable: 2516
+==> no of unassigned variable: 1327
+==> no of friends in largest team: 6 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 1, 4: 2, 5: 3, 6: 4, 7: 0, 8: 1, 9: 5, 10: 3, 11: 5, 12: 2, 13: 5, 14: 4, 15: 2, 16: 3, 17: 0, 18: 4, 19: 3, 20: 0, 21: 2, 22: 5, 23: 0, 24: 4, 25: 1, 26: 3, 27: 4, 28: 1, 29: 2, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.1
+==> checkTeams true(if solution is correct): True
+==> no of teams: 3
+==> total time (in seconds): 0.012743949890136719
+==> no of assigned variable: 1422
+==> no of unassigned variable: 1150
+==> no of friends in largest team: 12 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 2, 10: 2, 11: 2, 12: 1, 13: 1, 14: 1, 15: 0, 16: 0, 17: 0, 18: 2, 19: 1, 20: 2, 21: 1, 22: 2, 23: 1, 24: 1, 25: 1, 26: 0, 27: 0, 28: 2, 29: 2, 30: 1}
+
+
+IceBreaker problem for n=31; p=0.2
+==> checkTeams true(if solution is correct): True
+==> no of teams: 4
+==> total time (in seconds): 19.722511291503906
+==> no of assigned variable: 2275429
+==> no of unassigned variable: 1311868
+==> no of friends in largest team: 11 
+==> solution (teams be like): {0: 0, 1: 1, 2: 3, 3: 3, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 3, 11: 1, 12: 3, 13: 2, 14: 3, 15: 3, 16: 1, 17: 3, 18: 1, 19: 3, 20: 1, 21: 3, 22: 3, 23: 2, 24: 2, 25: 1, 26: 2, 27: 0, 28: 2, 29: 3, 30: 0}
+
+
+IceBreaker problem for n=31; p=0.3
+==> checkTeams true(if solution is correct): True
+==> no of teams: 5
+==> total time (in seconds): 0.20045900344848633
+==> no of assigned variable: 267
+==> no of unassigned variable: 118
+==> no of friends in largest team: 8 
+==> solution (teams be like): {0: 0, 1: 0, 2: 0, 3: 1, 4: 2, 5: 2, 6: 2, 7: 2, 8: 2, 9: 1, 10: 0, 11: 3, 12: 0, 13: 1, 14: 0, 15: 3, 16: 3, 17: 3, 18: 1, 19: 4, 20: 4, 21: 4, 22: 1, 23: 2, 24: 0, 25: 3, 26: 4, 27: 4, 28: 0, 29: 3, 30: 4}
+
+
+IceBreaker problem for n=31; p=0.4
+==> checkTeams true(if solution is correct): True
+==> no of teams: 6
+==> total time (in seconds): 34.453964948654175
+==> no of assigned variable: 15648
+==> no of unassigned variable: 8133
+==> no of friends in largest team: 6 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 2, 4: 2, 5: 3, 6: 0, 7: 4, 8: 0, 9: 1, 10: 5, 11: 3, 12: 0, 13: 3, 14: 1, 15: 5, 16: 1, 17: 2, 18: 1, 19: 3, 20: 3, 21: 4, 22: 5, 23: 5, 24: 2, 25: 4, 26: 1, 27: 4, 28: 5, 29: 4, 30: 3}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 70.05233120918274
+==> no of assigned variable: 32102
+==> no of unassigned variable: 18693
+==> no of friends in largest team: 7 
+==> solution (teams be like): {0: 0, 1: 1, 2: 0, 3: 0, 4: 2, 5: 1, 6: 2, 7: 6, 8: 3, 9: 4, 10: 2, 11: 5, 12: 4, 13: 3, 14: 4, 15: 6, 16: 4, 17: 0, 18: 4, 19: 1, 20: 6, 21: 3, 22: 4, 23: 0, 24: 5, 25: 2, 26: 1, 27: 6, 28: 4, 29: 5, 30: 3}
+
+
+IceBreaker problem for n=31; p=0.5
+==> checkTeams true(if solution is correct): True
+==> no of teams: 7
+==> total time (in seconds): 315.07831287384033
+==> no of assigned variable: 8190333
+==> no of unassigned variable: 4305391
+==> no of friends in largest team: 5 
+==> solution (teams be like): {0: 0, 1: 0, 2: 1, 3: 2, 4: 6, 5: 5, 6: 6, 7: 3, 8: 2, 9: 6, 10: 5, 11: 6, 12: 1, 13: 6, 14: 4, 15: 3, 16: 0, 17: 3, 18: 5, 19: 4, 20: 5, 21: 3, 22: 1, 23: 0, 24: 4, 25: 0, 26: 2, 27: 2, 28: 1, 29: 4, 30: 3}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 14.441948175430298
+==> no of assigned variable: 749
+==> no of unassigned variable: 594
+==> no of friends in largest team: 4 
+==> solution (teams be like): {0: 0, 15: 1, 5: 2, 24: 3, 30: 4, 13: 5, 18: 1, 2: 4, 11: 6, 8: 1, 19: 5, 16: 7, 20: 5, 12: 2, 22: 0, 25: 6, 29: 2, 4: 0, 9: 5, 23: 3, 27: 6, 21: 3, 1: 7, 26: 4, 7: 1, 10: 4, 6: 6, 3: 7, 17: 7, 28: 3, 14: 2}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 8.207986831665039
+==> no of assigned variable: 445
+==> no of unassigned variable: 351
+==> no of friends in largest team: 6 
+==> solution (teams be like): {24: 0, 16: 1, 15: 2, 28: 3, 25: 4, 2: 5, 7: 6, 17: 7, 13: 2, 29: 0, 26: 7, 6: 6, 4: 4, 11: 3, 5: 4, 3: 2, 14: 3, 21: 5, 0: 1, 12: 6, 10: 0, 22: 5, 23: 2, 9: 1, 1: 7, 8: 4, 27: 2, 19: 6, 18: 2, 20: 0, 30: 3}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 42.06924819946289
+==> no of assigned variable: 238
+==> no of unassigned variable: 173
+==> no of friends in largest team: 5 
+==> solution (teams be like): {19: 0, 27: 1, 4: 2, 24: 3, 10: 4, 0: 1, 18: 5, 21: 6, 6: 2, 30: 2, 1: 4, 8: 3, 26: 6, 17: 0, 12: 7, 15: 1, 20: 5, 2: 3, 9: 4, 16: 7, 23: 4, 5: 6, 14: 2, 7: 7, 22: 3, 3: 5, 11: 6, 25: 7, 29: 0, 13: 7, 28: 3}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 9
+==> total time (in seconds): 226.52267122268677
+==> no of assigned variable: 163
+==> no of unassigned variable: 106
+==> no of friends in largest team: 6 
+==> solution (teams be like): {25: 0, 29: 1, 10: 2, 21: 3, 17: 4, 28: 5, 2: 4, 23: 6, 6: 0, 11: 7, 4: 8, 22: 2, 7: 1, 8: 5, 16: 2, 24: 8, 14: 3, 27: 0, 30: 8, 12: 7, 5: 1, 18: 6, 0: 3, 15: 6, 3: 5, 20: 7, 1: 5, 19: 4, 9: 0, 13: 5, 26: 5}
+
+
+IceBreaker problem for n=31; p=0.6
+==> checkTeams true(if solution is correct): True
+==> no of teams: 8
+==> total time (in seconds): 19.518839836120605
+==> no of assigned variable: 31
+==> no of unassigned variable: 0
+==> no of friends in largest team: 5 
+==> solution (teams be like): {27: 0, 30: 1, 8: 2, 26: 3, 29: 4, 10: 5, 15: 1, 28: 4, 7: 3, 14: 0, 11: 2, 6: 6, 4: 0, 9: 5, 12: 7, 2: 7, 21: 5, 23: 3, 3: 4, 1: 6, 22: 2, 19: 1, 18: 6, 16: 6, 13: 3, 24: 7, 17: 3, 0: 0, 20: 2, 5: 0, 25: 4}
+
+
+///////////////////////////////
+
+
+
+

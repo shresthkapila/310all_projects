@@ -1,4 +1,4 @@
-# a2_q3.py
+# a2_q4.py
 
 from csp import *
 from a2_q1 import *
@@ -190,29 +190,30 @@ def maxPeople(solution):
             maxPeople = teams[i]
     return maxPeople	
 
+
 #---------------------------------------------------------------------------------------------------------------------------
 
-# running.. question 3 
+# running.. question 4 
 # instead of running in one loop, running all the graphs separately makes the process faster (LOOP UNROLLING) from CMPT295
-def run_q3():
+def run_q4():
         
     for i in range(5):
         print("Set of graphs:  ", i+1)
 
-        graphs = [rand_graph(0.1,31), rand_graph(0.2,31), rand_graph(0.3,31), 
-                    rand_graph(0.4,31), rand_graph(0.5,31), rand_graph(0.6,31)]
+        graphs = [rand_graph(0.1,105), rand_graph(0.2,105), rand_graph(0.3,105), 
+                    rand_graph(0.4,105), rand_graph(0.5,105), rand_graph(0.6,105)]
         
 
         print("Graph: ", 1)
         start_time = time.time()
-        for j in range(31):
+        for j in range(105):
             newdomain={w:[] for w in range(j+1)}
             for x in range(len(newdomain)):
                 for y in range(len(newdomain)):    
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[0])
             AC3(problem)
-            solution = backtracking_search(problem, mrv, lcv, inference=forward_checking)
+            solution = min_conflicts(problem)
             if solution is None:
                 continue
             else:
@@ -220,28 +221,30 @@ def run_q3():
 
         elapsed_time = time.time() - start_time
         
-        print(f'IceBreaker problem for n=31; p=0.1', file = open("a2_q3terminal.txt","a"))
-        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[0],solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q3terminal.txt","a") )
-        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q3terminal.txt","a"))
-        print(f'==> solution (teams be like): {solution}', file = open("a2_q3terminal.txt","a"))
-        print('\n', file = open("a2_q3terminal.txt","a"))
+        print(f'IceBreaker problem for n=105; p=0.1', file = open("a2_q4terminal.txt","a"))
+        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[0],solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q4terminal.txt","a") )
+        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q4terminal.txt","a"))
+        print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
+        print('\n', file = open("a2_q4terminal.txt","a"))
+
 
         #----------------------------------------------------------------------------------------------------------------------------
 
+
         print("Graph: ", 2)
         start_time = time.time()
-        for j in range(31):
+        for j in range(105):
             newdomain={w:[] for w in range(j+1)}
             for x in range(len(newdomain)):
                 for y in range(len(newdomain)):    
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[1])
             AC3(problem)
-            solution = backtracking_search(problem, mrv, lcv, inference=forward_checking)
+            solution = min_conflicts(problem)
             if solution is None:
                 continue
             else:
@@ -249,15 +252,15 @@ def run_q3():
 
         elapsed_time = time.time() - start_time
         
-        print(f'IceBreaker problem for n=31; p=0.2', file = open("a2_q3terminal.txt","a"))
-        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[1],solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q3terminal.txt","a") )
-        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q3terminal.txt","a"))
-        print(f'==> solution (teams be like): {solution}', file = open("a2_q3terminal.txt","a"))
-        print('\n', file = open("a2_q3terminal.txt","a"))
+        print(f'IceBreaker problem for n=105; p=0.2', file = open("a2_q4terminal.txt","a"))
+        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[1],solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q4terminal.txt","a") )
+        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q4terminal.txt","a"))
+        print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
+        print('\n', file = open("a2_q4terminal.txt","a"))
 
 
         #----------------------------------------------------------------------------------------------------------------------------
@@ -265,14 +268,14 @@ def run_q3():
 
         print("Graph: ", 3)
         start_time = time.time()
-        for j in range(31):
+        for j in range(105):
             newdomain={w:[] for w in range(j+1)}
             for x in range(len(newdomain)):
                 for y in range(len(newdomain)):    
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[2])
             AC3(problem)
-            solution = backtracking_search(problem, mrv, lcv, inference=forward_checking)
+            solution = min_conflicts(problem)
             if solution is None:
                 continue
             else:
@@ -280,15 +283,15 @@ def run_q3():
 
         elapsed_time = time.time() - start_time
         
-        print(f'IceBreaker problem for n=31; p=0.3', file = open("a2_q3terminal.txt","a"))
-        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[2],solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q3terminal.txt","a") )
-        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q3terminal.txt","a"))
-        print(f'==> solution (teams be like): {solution}', file = open("a2_q3terminal.txt","a"))
-        print('\n', file = open("a2_q3terminal.txt","a"))
+        print(f'IceBreaker problem for n=105; p=0.3', file = open("a2_q4terminal.txt","a"))
+        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[2],solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q4terminal.txt","a") )
+        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q4terminal.txt","a"))
+        print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
+        print('\n', file = open("a2_q4terminal.txt","a"))
 
 
         #----------------------------------------------------------------------------------------------------------------------------
@@ -296,14 +299,14 @@ def run_q3():
 
         print("Graph: ", 4)
         start_time = time.time()
-        for j in range(31):
+        for j in range(105):
             newdomain={w:[] for w in range(j+1)}
             for x in range(len(newdomain)):
                 for y in range(len(newdomain)):    
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[3])
             AC3(problem)
-            solution = backtracking_search(problem, mrv, lcv, inference=forward_checking)
+            solution = min_conflicts(problem)
             if solution is None:
                 continue
             else:
@@ -311,30 +314,31 @@ def run_q3():
 
         elapsed_time = time.time() - start_time
         
-        print(f'IceBreaker problem for n=31; p=0.4', file = open("a2_q3terminal.txt","a"))
-        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[3],solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q3terminal.txt","a") )
-        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q3terminal.txt","a"))
-        print(f'==> solution (teams be like): {solution}', file = open("a2_q3terminal.txt","a"))
-        print('\n', file = open("a2_q3terminal.txt","a"))
+        print(f'IceBreaker problem for n=105; p=0.4', file = open("a2_q4terminal.txt","a"))
+        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[3],solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q4terminal.txt","a") )
+        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q4terminal.txt","a"))
+        print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
+        print('\n', file = open("a2_q4terminal.txt","a"))
 
 
         #----------------------------------------------------------------------------------------------------------------------------
 
 
+
         print("Graph: ", 5)
         start_time = time.time()
-        for j in range(31):
+        for j in range(105):
             newdomain={w:[] for w in range(j+1)}
             for x in range(len(newdomain)):
                 for y in range(len(newdomain)):    
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[4])
             AC3(problem)
-            solution = backtracking_search(problem, mrv, lcv, inference=forward_checking)
+            solution = min_conflicts(problem)
             if solution is None:
                 continue
             else:
@@ -342,15 +346,15 @@ def run_q3():
 
         elapsed_time = time.time() - start_time
         
-        print(f'IceBreaker problem for n=31; p=0.5', file = open("a2_q3terminal.txt","a"))
-        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[4],solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q3terminal.txt","a") )
-        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q3terminal.txt","a"))
-        print(f'==> solution (teams be like): {solution}', file = open("a2_q3terminal.txt","a"))
-        print('\n', file = open("a2_q3terminal.txt","a"))
+        print(f'IceBreaker problem for n=105; p=0.5', file = open("a2_q4terminal.txt","a"))
+        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[4],solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q4terminal.txt","a") )
+        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q4terminal.txt","a"))
+        print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
+        print('\n', file = open("a2_q4terminal.txt","a"))
 
 
         #----------------------------------------------------------------------------------------------------------------------------
@@ -358,7 +362,7 @@ def run_q3():
 
         print("Graph: ", 6)
         start_time = time.time()
-        for j in range(31):
+        for j in range(105):
             newdomain={w:[] for w in range(j+1)}
             print(newdomain)
             for x in range(len(newdomain)):
@@ -366,7 +370,7 @@ def run_q3():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[5])
             AC3(problem)
-            solution = backtracking_search(problem, mrv, lcv, inference=forward_checking)
+            solution = min_conflicts(problem)
             if solution is None:
                 continue
             else:
@@ -374,19 +378,18 @@ def run_q3():
 
         elapsed_time = time.time() - start_time
         
-        print(f'IceBreaker problem for n=31; p=0.6', file = open("a2_q3terminal.txt","a"))
-        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[5],solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q3terminal.txt","a") )
-        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q3terminal.txt","a"))
-        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q3terminal.txt","a"))
-        print(f'==> solution (teams be like): {solution}', file = open("a2_q3terminal.txt","a"))
-        print('//////////////////////////////////\n', file = open("a2_q3terminal.txt","a"))
-
+        print(f'IceBreaker problem for n=105; p=0.6', file = open("a2_q4terminal.txt","a"))
+        print(f'==> checkTeams true(if solution is correct): {check_teams(graphs[5],solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of teams: {countTeams(solution)}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> total time (in seconds): {elapsed_time}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of assigned variable: {problem.nassigns}', file = open("a2_q4terminal.txt","a") )
+        print(f'==> no of unassigned variable: {problem.unassigns}', file = open("a2_q4terminal.txt","a"))
+        print(f'==> no of friends in largest team: {maxPeople(solution)} ', file = open("a2_q4terminal.txt","a"))
+        print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
+        print('//////////////////////////////////\n', file = open("a2_q4terminal.txt","a"))
 
 # comment to not run
-run_q3()
+run_q4()
 
 
 
