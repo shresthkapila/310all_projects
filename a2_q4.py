@@ -213,7 +213,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[0])
             AC3(problem)
-            solution = min_conflicts(problem,7000)
+            solution = min_conflicts(problem,5000)
             if solution is None:
                 continue
             else:
@@ -244,7 +244,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[1])
             AC3(problem)
-            solution = min_conflicts(problem,7000)
+            solution = min_conflicts(problem,5000)
             if solution is None:
                 continue
             else:
@@ -275,7 +275,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[2])
             AC3(problem)
-            solution = min_conflicts(problem,7000)
+            solution = min_conflicts(problem,5000)
             if solution is None:
                 continue
             else:
@@ -306,7 +306,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[3])
             AC3(problem)
-            solution = min_conflicts(problem,7000)
+            solution = min_conflicts(problem,5000)
             if solution is None:
                 continue
             else:
@@ -338,7 +338,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[4])
             AC3(problem)
-            solution = min_conflicts(problem,7000)
+            solution = min_conflicts(problem,5000)
             if solution is None:
                 continue
             else:
@@ -371,7 +371,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[5])
             AC3(problem)
-            solution = min_conflicts(problem,7000)
+            solution = min_conflicts(problem,5000)
             if solution is None:
                 continue
             else:
