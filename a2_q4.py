@@ -213,7 +213,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[0])
             AC3(problem)
-            solution = min_conflicts(problem)
+            solution = min_conflicts(problem,7000)
             if solution is None:
                 continue
             else:
@@ -244,7 +244,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[1])
             AC3(problem)
-            solution = min_conflicts(problem)
+            solution = min_conflicts(problem,7000)
             if solution is None:
                 continue
             else:
@@ -275,7 +275,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[2])
             AC3(problem)
-            solution = min_conflicts(problem)
+            solution = min_conflicts(problem,7000)
             if solution is None:
                 continue
             else:
@@ -306,7 +306,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[3])
             AC3(problem)
-            solution = min_conflicts(problem)
+            solution = min_conflicts(problem,7000)
             if solution is None:
                 continue
             else:
@@ -338,7 +338,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[4])
             AC3(problem)
-            solution = min_conflicts(problem)
+            solution = min_conflicts(problem,7000)
             if solution is None:
                 continue
             else:
@@ -360,6 +360,7 @@ def run_q4():
         #----------------------------------------------------------------------------------------------------------------------------
 
 
+
         print("Graph: ", 6)
         start_time = time.time()
         for j in range(105):
@@ -370,7 +371,7 @@ def run_q4():
                     newdomain[y].append(x)
             problem = MapColoringCSP(newdomain,graphs[5])
             AC3(problem)
-            solution = min_conflicts(problem)
+            solution = min_conflicts(problem,7000)
             if solution is None:
                 continue
             else:
@@ -388,7 +389,10 @@ def run_q4():
         print(f'==> solution (teams be like): {solution}', file = open("a2_q4terminal.txt","a"))
         print('//////////////////////////////////\n', file = open("a2_q4terminal.txt","a"))
 
-# comment to not run
+
+
+
+
 run_q4()
 
 
