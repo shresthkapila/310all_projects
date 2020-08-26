@@ -1,0 +1,50 @@
+topics <-- weather & sports & seasons & diseases
+snowing <-- cloudy & below_zero & white_stuff_falling
+cloudy <-- no_sun & daytime
+below_zero <-- very_cold
+seasons <-- summer & winter & spring & fall
+sports <-- indoor & outdoor
+indoor <-- chess & uno & snakesladder & poker
+chess <-- two_players & mindgame
+outdoor <-- basketball & soccer & volleyball & cricket & badminton & tennis
+anyweather <-- seasons & indoor & outdoor
+multipleplayer <-- outdoor & uno
+two_players <-- tennis & badminton
+pcgames <-- steam & warzone & counterstrike & stressful & concentration & morefocus
+anyweather <-- indoor & pcgames
+no_sun <-- no_outdoor & indoor & pcgames
+teamwork <-- outdoor & pcgames
+steam <-- worldwide & fun & multipleplayer & notfree
+tournament <-- multipleteams & differentcountries & differentstates & differentschools & sameschool
+goodhealth <-- outdoor & running & healthyfood
+running <-- outdoor & treadmill & indoor & ground
+soccer <-- ronaldo & messi & neymar & marcelo & beckham & elevenplayers & twoteams
+corona_virus <-- fever & runny_nose & tierdness & dry_cough & nausea & shortness_of_breath & diarrhoea & sore_throat & head_aches & pains
+cricket <-- tenplayers & twoteams & sachin & virat & chrisgale & steve & dhoni
+infected <-- corona_virus
+flu <-- fever & cough & fatigue
+anemia <-- extreme_fatigue & pale_skin & weakness & chest_pain & inflammation_of_tongue & brittle_nails
+pneumonia <-- cough & greenish_mucus & yellow_mucus & fever & sweating & shortness_of_breath & loss_of_appetite & low_energy & fatigue
+arthritis <-- swelling_joints & reduced_motion & weight_loss & fever
+lyme_disease <-- rash & fever & fatigue & joint_ache
+lupus <-- skin_rash & ankle_swelling & fatigue & swollen_joints & fever
+bronchiolitis <-- shortness_of_breath & wheezing & crackling_sounds_in_lungs & nasal_flaring
+vitamin_D_deficiency <-- fatigue & back_pain & depression
+dehydration <-- increased_thirst & dry_mouth & dry_skin & sleepiness
+stress <-- low_energy & insomnia & headaches
+nystagmus <-- abnormal_eye_movements & sensitivity_to_light & vision_problems
+depression <-- helplessness & anger & irritability & self_loathing & lack_of_concentration
+runny_nose <-- sneezing & fatigue & cough & nasal_congestion
+pains <-- body & muscle & head & shoulder & aches
+shivering <-- anxiety & fear & excitement & stress & low_blood_sugar & psychogenic_movement_disorders
+intermittent_sweats <-- heat_exhaustion & endocarditis & diabetic_hypoglycemia & heart_attack & hyperhidrosis
+body_aches <-- stress & dehydration & lack_of_sleep & common_cold & flu & anemia & vitamin_D_deficiency & pneumonia & arthritis & lyme_disease & lupus
+sneezing <-- burning_eyes & itchy_eyes & watery_eyes & nasal_congestion & chills & sticky_discharge_coming_out_of_nose
+fatigue <-- chronic_tiredness & sleepiness & tierdness
+stroke <-- numbness & weakness & confusion & trouble_speaking & dizziness & lack_of_balance
+abdominal_cramps <-- food_poisoning & gas & indigestion & infections & lactose_intolerance & inflammatory_bowel_disease
+anxiety <-- feeling_nervous & panic & increased_heart_rate & breathing_rapidly & trembling
+low_blood_sugar <-- feeling_shaky & anxiety & impatience & fast_heartbeat & confusion & feeling_lightheaded
+endocarditis <-- night_sweats & muscle_pain & joint_pain & fever & pale_skin & heart_murmur & nausea
+diabetic_hypoglycemia <-- shakiness & sweating & hunger & nervousness
+hyperhidrosis <-- wet_palms_of_the_hands & wet_sole_of_the_feet & frequent_sweating
